@@ -1,0 +1,33 @@
+body{
+    background-image: url("/images/spotify-background.jpeg");
+    background-size: cover;
+    background-repeat: repeat;
+    margin: 0;
+    color: white;
+    font-size: 16px;
+}
+nav{
+    background-color: black;
+    display: block;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.button-artist{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+    padding: 50%;
+}
